@@ -1,0 +1,8 @@
+module Fundraising { 
+	interface Charity { 
+		oneway void donateMoney(in float amount);
+		float getTotalAmountRaised();
+		long getNumberOfDonors();
+		float averageAmountOfMoneyPerDonor();
+		}; 
+	};
